@@ -1,4 +1,49 @@
-#logo {
+#navbar-brand {
 	font-size: 50px;
- 
+    
 }
+
+#header-nav{
+	background-color: grey;
+	height:110px;
+}
+h2{
+	font-weight:bold;
+	margin-bottom:15px;
+	font-family: "monaco", Monospace;
+}
+h1{
+	text-align: center;
+	font-weight:bold;
+	margin-bottom:20px;
+	font-family: "monaco", Monospace;
+	color: black;
+
+}
+
+#home-tiles {
+    margin: 10px;
+    background-color: grey;
+    height: 200px;
+    
+}
+span{
+	font-weight:bold;
+	font-size: 30px
+}
+body{
+	text-align:center;
+	font-family: "monaco", Monospace;
+
+}
+#collapsable-nav{
+	background-color: grey;
+}
+.navbar-default .navbar-nav>li>a{
+	color:white;
+	border-color: black;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: black;
+   
+  }
